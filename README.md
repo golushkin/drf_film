@@ -47,6 +47,15 @@ py manage.py runserver
 <a name="rout"></a>
 ## Routes
 
+1. Route: api/v1/man/
+  - Return: return all people in json
+  - Methods: GET, POST
+  - Required filds: first_name, last_name
+  - Fields:
+    - first_name - string, max length 30 characters,
+    - last_name - string, max length 30 characters,
+    - date_of_born - date, format YYYY-MM-DD
+
 <a name="demo"></a>
 ## Demo
 

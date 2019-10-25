@@ -1,3 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\Kamina\\.virtualenvs\\drf_film-C3gHoohi\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\Kamina\\.virtualenvs\\drf_film-C3gHoohi\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": ["--load-plugins","pylint_django"],
+    "python.linting.enabled": true
 }
